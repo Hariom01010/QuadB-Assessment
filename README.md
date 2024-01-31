@@ -24,7 +24,7 @@ Follow the steps below to set up and run the project:
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/react-internship-assignment.git
+   git clone https://github.com/Hariom01010/react-internship-assignment.git
    ```
 
 2. Install project dependencies.
