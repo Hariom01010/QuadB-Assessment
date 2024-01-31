@@ -79,8 +79,9 @@ function Show() {
   
           <div className='w-full md:w-2/3 my-10 md:my-0 md:mx-10'>
             <h1 className='text-2xl sm:text-6xl font-semibold'>{showData.name}</h1>
-            <p className='my-3'><span className='text-[#ff62cd] font-bold text-lg'>Genre: </span> {showData.genres}</p>
+            <p className='my-3'><span className='text-[#ff62cd] font-bold text-lg'>Genre: </span> {showData.genres[0]}</p>
             <p className='my-3'><span className='text-[#ff62cd] font-bold text-lg'>Language: </span> {showData.language}</p>
+            <p className='text-lg font-bold mb-4'>{showData.rating.average || "NA"} ⭐</p>
             <div dangerouslySetInnerHTML={{__html: showData.summary}} className='text-base md:text-lg my-2'></div>
 
             <button className='bg-[#ff62cd] px-20 py-2 my-10 rounded-sm hover:bg-[#d31797]' onClick={toggleShowForm}>Book</button>
